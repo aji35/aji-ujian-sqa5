@@ -1,0 +1,7 @@
+com\juaracoding\cucumber\driver\DriverManager.class
+com\juaracoding\cucumber\pages\CartPage.class
+com\juaracoding\cucumber\pages\InventoryPage.class
+com\juaracoding\cucumber\reports\ExtentTestManager.class
+com\juaracoding\cucumber\pages\LoginPage.class
+com\juaracoding\cucumber\reports\ExtentManager.class
+com\juaracoding\cucumber\pages\CheckoutPage.class

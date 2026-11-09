@@ -1,0 +1,5 @@
+com\juaracoding\cucumber\stepdefinitions\CartSteps.class
+com\juaracoding\cucumber\stepdefinitions\CheckoutSteps.class
+com\juaracoding\cucumber\runners\TestRunner.class
+com\juaracoding\cucumber\stepdefinitions\LoginSteps.class
+com\juaracoding\cucumber\stepdefinitions\Hooks.class

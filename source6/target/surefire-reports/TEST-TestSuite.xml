@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="137.887" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\Desktop\source6\target\test-classes;C:\Users\LENOVO\Desktop\source6\target\classes;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\LENOVO\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\LENOVO\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\LENOVO\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire16573608328309554207\surefirebooter-20261108215037291_3.jar C:\Users\LENOVO\AppData\Local\Temp\surefire16573608328309554207 2026-11-08T21-50-36_757-jvmRun1 surefire-20261108215037291_1tmp surefire_0-20261108215037291_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\LENOVO\Desktop\source6\target\test-classes;C:\Users\LENOVO\Desktop\source6\target\classes;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\LENOVO\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\LENOVO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\LENOVO\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\LENOVO\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.12.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\LENOVO\Desktop\source6"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire16573608328309554207\surefirebooter-20261108215037291_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\LENOVO\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="C:\Users\LENOVO\Desktop\source6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="true"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/LENOVO/.gemini/antigravity/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-26.0.1\bin;C:\Program Files\nodejs\;C:\Users\LENOVO\Documents\apache-maven-3.9.15\bin;C:\Program Files\PostgreSQL;C:\Program Files\WSL\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LENOVO\AppData\Roaming\npm;C:\Users\LENOVO\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\LENOVO\AppData\Local\github-copilot-git-2.53.0-4\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS-4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login Berhasil dengan Kredensial Valid&quot;, &quot;Autentikasi Pengguna di Portal SauceDemo dengan PageFactory&quot;](1)" classname="com.juaracoding.cucumber.runners.TestRunner" time="19.137">
+    <system-out><![CDATA[
+@Login @Smoke @Positive
+Scenario: Login Berhasil dengan Kredensial Valid                              # src/test/resources/features/01_Login.feature:11
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Login Berhasil dengan Kredensial Valid
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"            # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                              # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                          # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products" # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+✅ [SCENARIO PASSED] Login Berhasil dengan Kredensial Valid
+🏁 [CUCUMBER SCENARIO FINISH] Login Berhasil dengan Kredensial Valid
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 08, 2026 9:50:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:50:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid&quot;, &quot;Autentikasi Pengguna di Portal SauceDemo dengan PageFactory&quot;](2)" classname="com.juaracoding.cucumber.runners.TestRunner" time="13.938">
+    <system-out><![CDATA[
+@Login @Regression @Negative
+Scenario Outline: Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid         # src/test/resources/features/01_Login.feature:26
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                   # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username ""                                                  # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                       # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                 # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Sistem menampilkan pesan kesalahan login "Epic sadface: Username is required" # com.juaracoding.cucumber.stepdefinitions.LoginSteps.sistemMenampilkanPesanKesalahanLogin(java.lang.String)
+✅ [SCENARIO PASSED] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+🏁 [CUCUMBER SCENARIO FINISH] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:51:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:51:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid&quot;, &quot;Autentikasi Pengguna di Portal SauceDemo dengan PageFactory&quot;](3)" classname="com.juaracoding.cucumber.runners.TestRunner" time="10.749">
+    <system-out><![CDATA[
+@Login @Regression @Negative
+Scenario Outline: Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid         # src/test/resources/features/01_Login.feature:27
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                   # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                     # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password ""                                                   # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                 # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Sistem menampilkan pesan kesalahan login "Epic sadface: Password is required" # com.juaracoding.cucumber.stepdefinitions.LoginSteps.sistemMenampilkanPesanKesalahanLogin(java.lang.String)
+✅ [SCENARIO PASSED] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+🏁 [CUCUMBER SCENARIO FINISH] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:51:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid&quot;, &quot;Autentikasi Pengguna di Portal SauceDemo dengan PageFactory&quot;](4)" classname="com.juaracoding.cucumber.runners.TestRunner" time="10.686">
+    <system-out><![CDATA[
+@Login @Regression @Negative
+Scenario Outline: Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid                                                # src/test/resources/features/01_Login.feature:28
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                                                          # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "user_salah"                                                                               # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "pass_salah"                                                                                # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                                                        # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Sistem menampilkan pesan kesalahan login "Epic sadface: Username and password do not match any user in this service" # com.juaracoding.cucumber.stepdefinitions.LoginSteps.sistemMenampilkanPesanKesalahanLogin(java.lang.String)
+✅ [SCENARIO PASSED] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+🏁 [CUCUMBER SCENARIO FINISH] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:51:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:51:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid&quot;, &quot;Autentikasi Pengguna di Portal SauceDemo dengan PageFactory&quot;](5)" classname="com.juaracoding.cucumber.runners.TestRunner" time="8.344">
+    <system-out><![CDATA[
+@Login @Regression @Negative
+Scenario Outline: Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid                          # src/test/resources/features/01_Login.feature:29
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "locked_out_user"                                                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                                        # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                                  # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Sistem menampilkan pesan kesalahan login "Epic sadface: Sorry, this user has been locked out." # com.juaracoding.cucumber.stepdefinitions.LoginSteps.sistemMenampilkanPesanKesalahanLogin(java.lang.String)
+✅ [SCENARIO PASSED] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+🏁 [CUCUMBER SCENARIO FINISH] Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:51:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:51:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Menambahkan Satu Produk Standar ke Keranjang Belanja&quot;, &quot;Penambahan Produk ke Keranjang Belanja dengan PageFactory&quot;](6)" classname="com.juaracoding.cucumber.runners.TestRunner" time="9.481">
+    <system-out><![CDATA[
+@Cart @Smoke @Positive
+Scenario: Menambahkan Satu Produk Standar ke Keranjang Belanja                      # src/test/resources/features/02_AddToCart.feature:15
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Menambahkan Satu Produk Standar ke Keranjang Belanja
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                  # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                      # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"       # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Backpack" untuk ditambahkan ke keranjang # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  Then Ikon keranjang belanja menampilkan angka "1"                                 # com.juaracoding.cucumber.stepdefinitions.CartSteps.ikonKeranjangBelanjaMenampilkanAngka(java.lang.String)
+  When Pengguna membuka halaman keranjang belanja                                   # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  Then Produk "Sauce Labs Backpack" terdaftar di dalam daftar keranjang belanja     # com.juaracoding.cucumber.stepdefinitions.CartSteps.produkTerdaftarDiDalamDaftarKeranjangBelanja(java.lang.String)
+✅ [SCENARIO PASSED] Menambahkan Satu Produk Standar ke Keranjang Belanja
+🏁 [CUCUMBER SCENARIO FINISH] Menambahkan Satu Produk Standar ke Keranjang Belanja
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:51:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:51:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja&quot;, &quot;Penambahan Produk ke Keranjang Belanja dengan PageFactory&quot;](7)" classname="com.juaracoding.cucumber.runners.TestRunner" time="11.959">
+    <system-out><![CDATA[
+@Cart @Regression
+Scenario Outline: Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja            # src/test/resources/features/02_AddToCart.feature:30
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                      # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                        # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                  # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"         # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Bike Light" untuk ditambahkan ke keranjang # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  Then Ikon keranjang belanja menampilkan angka "1"                                   # com.juaracoding.cucumber.stepdefinitions.CartSteps.ikonKeranjangBelanjaMenampilkanAngka(java.lang.String)
+  When Pengguna membuka halaman keranjang belanja                                     # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  Then Produk "Sauce Labs Bike Light" terdaftar di dalam daftar keranjang belanja     # com.juaracoding.cucumber.stepdefinitions.CartSteps.produkTerdaftarDiDalamDaftarKeranjangBelanja(java.lang.String)
+✅ [SCENARIO PASSED] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+🏁 [CUCUMBER SCENARIO FINISH] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:52:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:52:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja&quot;, &quot;Penambahan Produk ke Keranjang Belanja dengan PageFactory&quot;](8)" classname="com.juaracoding.cucumber.runners.TestRunner" time="12.036">
+    <system-out><![CDATA[
+@Cart @Regression
+Scenario Outline: Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja              # src/test/resources/features/02_AddToCart.feature:31
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                      # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                        # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                          # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"           # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Bolt T-Shirt" untuk ditambahkan ke keranjang # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  Then Ikon keranjang belanja menampilkan angka "1"                                     # com.juaracoding.cucumber.stepdefinitions.CartSteps.ikonKeranjangBelanjaMenampilkanAngka(java.lang.String)
+  When Pengguna membuka halaman keranjang belanja                                       # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  Then Produk "Sauce Labs Bolt T-Shirt" terdaftar di dalam daftar keranjang belanja     # com.juaracoding.cucumber.stepdefinitions.CartSteps.produkTerdaftarDiDalamDaftarKeranjangBelanja(java.lang.String)
+✅ [SCENARIO PASSED] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+🏁 [CUCUMBER SCENARIO FINISH] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:52:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:52:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja&quot;, &quot;Penambahan Produk ke Keranjang Belanja dengan PageFactory&quot;](9)" classname="com.juaracoding.cucumber.runners.TestRunner" time="8.805">
+    <system-out><![CDATA[
+@Cart @Regression
+Scenario Outline: Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja               # src/test/resources/features/02_AddToCart.feature:32
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                       # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                         # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                           # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                     # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"            # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Fleece Jacket" untuk ditambahkan ke keranjang # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  Then Ikon keranjang belanja menampilkan angka "1"                                      # com.juaracoding.cucumber.stepdefinitions.CartSteps.ikonKeranjangBelanjaMenampilkanAngka(java.lang.String)
+  When Pengguna membuka halaman keranjang belanja                                        # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  Then Produk "Sauce Labs Fleece Jacket" terdaftar di dalam daftar keranjang belanja     # com.juaracoding.cucumber.stepdefinitions.CartSteps.produkTerdaftarDiDalamDaftarKeranjangBelanja(java.lang.String)
+✅ [SCENARIO PASSED] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+🏁 [CUCUMBER SCENARIO FINISH] Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:52:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validasi Pesan Kesalahan saat Kode Pos Dikosongkan&quot;, &quot;Validasi Informasi Pengiriman pada Halaman Checkout dengan PageFactory&quot;](10)" classname="com.juaracoding.cucumber.runners.TestRunner" time="10.187">
+    <system-out><![CDATA[
+@Checkout @Regression @Negative
+Scenario: Validasi Pesan Kesalahan saat Kode Pos Dikosongkan                        # src/test/resources/features/03_Checkout.feature:18
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Validasi Pesan Kesalahan saat Kode Pos Dikosongkan
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                  # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                    # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                      # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"       # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Backpack" untuk ditambahkan ke keranjang # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  And Pengguna membuka halaman keranjang belanja                                    # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  And Pengguna mengklik tombol checkout                                             # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengklikTombolCheckout()
+  When Pengguna mengisi nama depan "John"                                           # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengisiNamaDepan(java.lang.String)
+  And Pengguna mengisi nama belakang "Doe"                                          # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengisiNamaBelakang(java.lang.String)
+  And Pengguna mengosongkan kode pos                                                # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengosongkanKodePos()
+  And Pengguna mengklik tombol Continue                                             # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengklikTombolContinue()
+  Then Sistem menampilkan pesan kesalahan checkout "Error: Postal Code is required" # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.sistemMenampilkanPesanKesalahanCheckout(java.lang.String)
+✅ [SCENARIO PASSED] Validasi Pesan Kesalahan saat Kode Pos Dikosongkan
+🏁 [CUCUMBER SCENARIO FINISH] Validasi Pesan Kesalahan saat Kode Pos Dikosongkan
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:52:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:52:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table&quot;, &quot;Validasi Informasi Pengiriman pada Halaman Checkout dengan PageFactory&quot;](11)" classname="com.juaracoding.cucumber.runners.TestRunner" time="14.134">
+    <system-out><![CDATA[
+@Checkout @Regression @Negative
+Scenario Outline: Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table # src/test/resources/features/03_Checkout.feature:35
+==================================================================
+🚀 [CUCUMBER SCENARIO START] Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table
+==================================================================
+  Given Pengguna membuka portal login "https://www.saucedemo.com/"                           # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMembukaPortalLogin(java.lang.String)
+  When Pengguna mengisi username "standard_user"                                             # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiUsername(java.lang.String)
+  And Pengguna mengisi password "secret_sauce"                                               # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengisiPassword(java.lang.String)
+  And Pengguna mengklik tombol Login                                                         # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaMengklikTombolLogin()
+  Then Pengguna berhasil diarahkan ke halaman katalog dengan judul "Products"                # com.juaracoding.cucumber.stepdefinitions.LoginSteps.penggunaBerhasilDiarahkanKeHalamanKatalogDenganJudul(java.lang.String)
+  When Pengguna memilih produk "Sauce Labs Backpack" untuk ditambahkan ke keranjang          # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMemilihProdukUntukDitambahkanKeKeranjang(java.lang.String)
+  And Pengguna membuka halaman keranjang belanja                                             # com.juaracoding.cucumber.stepdefinitions.CartSteps.penggunaMembukaHalamanKeranjangBelanja()
+  And Pengguna mengklik tombol checkout                                                      # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengklikTombolCheckout()
+  When Pengguna mengisi nama depan "Jane"                                                    # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengisiNamaDepan(java.lang.String)
+  And Pengguna mengisi nama belakang "Smith"                                                 # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengisiNamaBelakang(java.lang.String)
+  And Pengguna mengisi kode pos ""                                                           # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengisiKodePos(java.lang.String)
+  And Pengguna mengklik tombol Continue                                                      # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.penggunaMengklikTombolContinue()
+  Then Sistem menampilkan pesan kesalahan checkout "Error: Postal Code is required"          # com.juaracoding.cucumber.stepdefinitions.CheckoutSteps.sistemMenampilkanPesanKesalahanCheckout(java.lang.String)
+✅ [SCENARIO PASSED] Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table
+🏁 [CUCUMBER SCENARIO FINISH] Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table
+]]></system-out>
+    <system-err><![CDATA[Nov 08, 2026 9:52:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 08, 2026 9:52:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

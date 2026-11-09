@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-08T21:50:41 WIB" name="Cucumber BDD PageFactory &amp; ExtentReports 5 Suite - Day 25" finished-at="2026-11-08T21:52:56 WIB" duration-ms="134480">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-11-08T21:50:41 WIB" name="Enterprise Cucumber Scenarios Execution" finished-at="2026-11-08T21:52:56 WIB" duration-ms="134480">
+      <class name="com.juaracoding.cucumber.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:50:42 WIB" name="setUpClass" finished-at="2026-11-08T21:50:43 WIB" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d6f6ca9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:50:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:03 WIB" duration-ms="19133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Berhasil dengan Kredensial Valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Autentikasi Pengguna di Portal SauceDemo dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:17 WIB" duration-ms="13939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Autentikasi Pengguna di Portal SauceDemo dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:27 WIB" duration-ms="10748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Autentikasi Pengguna di Portal SauceDemo dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:38 WIB" duration-ms="10685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Autentikasi Pengguna di Portal SauceDemo dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:46 WIB" duration-ms="8346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Gagal dengan Berbagai Variasi Kredensial Tidak Valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Autentikasi Pengguna di Portal SauceDemo dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:51:56 WIB" duration-ms="9481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menambahkan Satu Produk Standar ke Keranjang Belanja"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Penambahan Produk ke Keranjang Belanja dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:51:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:52:08 WIB" duration-ms="11957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Penambahan Produk ke Keranjang Belanja dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:52:20 WIB" duration-ms="12037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Penambahan Produk ke Keranjang Belanja dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:52:29 WIB" duration-ms="8804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menambahkan Berbagai Pilihan Produk ke Keranjang Belanja"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Penambahan Produk ke Keranjang Belanja dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:52:39 WIB" duration-ms="10188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validasi Pesan Kesalahan saat Kode Pos Dikosongkan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validasi Informasi Pengiriman pada Halaman Checkout dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-08T21:52:53 WIB" duration-ms="14133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validasi Pesan Kesalahan saat Kolom Kode Pos Kosong Menggunakan Data Table"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validasi Informasi Pengiriman pada Halaman Checkout dengan PageFactory"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:53 WIB" name="tearDownClass" finished-at="2026-11-08T21:52:56 WIB" duration-ms="2957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.juaracoding.cucumber.runners.TestRunner@1a482e36]" started-at="2026-11-08T21:52:56 WIB" name="tearDownSuite" finished-at="2026-11-08T21:52:57 WIB" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.juaracoding.cucumber.runners.TestRunner -->
+    </test> <!-- Enterprise Cucumber Scenarios Execution -->
+  </suite> <!-- Cucumber BDD PageFactory & ExtentReports 5 Suite - Day 25 -->
+</testng-results>

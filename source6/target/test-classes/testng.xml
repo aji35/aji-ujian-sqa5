@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber BDD PageFactory &amp; ExtentReports 5 Suite - Day 25" verbose="1">
+
+    <test name="Enterprise Cucumber Scenarios Execution">
+        <classes>
+            <class name="com.juaracoding.cucumber.runners.TestRunner" />
+        </classes>
+    </test>
+
+</suite>
+
